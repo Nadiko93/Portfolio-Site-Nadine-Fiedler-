@@ -112,12 +112,7 @@ a:active, a:focus {
     transition: 0.2s opacity;
 }
 
-.button:hover, .button:focus {
-    background-color: #506F57;
-    color: #F3F9F4;
-}
-
-.button:focus {
+.button:hover, .button:active, .button:focus {
     background-color: #506F57;
     color: #F3F9F4;
 }
@@ -129,11 +124,7 @@ a:active, a:focus {
     text-transform: uppercase;
 }
 
-.button.contact:hover {
-    background-color: #A97051;
-}
-
-.button.contact:active, .button.contact:focus {
+.button.contact:hover, .button.contact:active, .button.contact:focus {
     background-color: #A97051;
 }
 
