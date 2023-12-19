@@ -52,6 +52,7 @@ h1 {
     font-size: 3.75em;
     font-weight: 700;
     margin-top: 0;
+    text-align: center;
 }
 
 h2 {
@@ -110,6 +111,7 @@ a:active, a:focus {
     padding: 12px 16px;
     border-radius: 20px;
     transition: 0.2s opacity;
+    margin: 8px 0 16px 0;
 }
 
 .button:hover, .button:active, .button:focus {
@@ -139,21 +141,14 @@ a:active, a:focus {
     margin: 48px 0;
 }
 
-#work .row {
-    padding-bottom: 25px;
-    border-bottom: 1px solid #0F0F0F;
-}
 
-h1, h2 {
-    text-align: center;
-}
 /*--------------------------------------------------------
     3.1 Header
 ----------------------------------------------------------*/
 
-#hero {
-    text-align: center ;
-    color: #F3F9F4;
+header {
+    text-align: center;
+    padding: 10px 0;
     background-color: #688D70;
     padding: 0 0 20px 0;
     display: inline-block;
@@ -167,11 +162,10 @@ a.logo {
     color:#F3F9F4;
 }
 
-header {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #688D70;
 /* Navigation Styling */
+nav {
+    display: inline-block;
+    width: 100%;
 }
 
 nav > ul {
@@ -199,13 +193,23 @@ nav > ul > li > a:active, nav > ul > li > a:focus {
 }
 
 
-nav {
 /*---------------------------------------------------------
     3.2 Homepage
 -----------------------------------------------------------*/
+
+#work h2 {
+    text-align: center;
+}
+
 /*---------------------------------------------------------
     3.2.1 Hero Section
 -----------------------------------------------------------*/
+
+#hero {
+    text-align: center ;
+    color: #F3F9F4;
+    background-color: #688D70;
+    padding: 0 0 20px 0;
     display: inline-block;
     width: 100%;
 }
@@ -213,12 +217,50 @@ nav {
 /*----------------------------------------------------------
     3.2.2 Work Section
 ------------------------------------------------------------*/
+
+#work .row {
+    padding-bottom: 25px;
+    /*border-bottom: 1px solid #0F0F0F;*/
+}
+
+
+/*-----------------------------------------------------------
     3.3 About Page
 ------------------------------------------------------------*/
 
 /*-----------------------------------------------------------
     3.4 Project Page
 ------------------------------------------------------------*/
+
+.project h2 {
+    padding: 8px 0;
+    border-bottom: 1.5px solid #0F0F0F;
+    border-radius: 1px;
+}
+
+.top h2 {
+    border-bottom: none;
+    text-align: center;
+}
+
+
 /*----------------------------------------------------------
     3.6 Footer
 ------------------------------------------------------------*/
+
+footer {
+    background-color: #688D70;
+    color: #F3F9F4;
+    padding: 16px 15px;
+}
+
+.socials {
+    display: inline-block;
+    width: 15%;
+    padding: 0 8px;
+    margin: 24px 0;
+}
+
+footer h2 {
+    text-align: center;
+}
