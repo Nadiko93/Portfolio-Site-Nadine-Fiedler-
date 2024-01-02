@@ -303,13 +303,34 @@ footer {
     padding: 16px 15px;
 }
 
-.socials {
+
+.linkedin, .insta, .behance {
     display: inline-block;
     width: 15%;
-    padding: 0 8px;
-    margin: 24px 0;
 }
 
-footer h2 {
+footer h2, footer p {
     text-align: center;
+    max-width: 100%;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 24px 0;
+
+}
+
+.sns-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.copyright {
+    font-size: 0.8em;
+}
+
 }
