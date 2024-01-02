@@ -240,6 +240,10 @@ nav > ul > li > a:active, nav > ul > li > a:focus {
     3.3 About Page
 ------------------------------------------------------------*/
 
+.btn-center {
+    text-align: center;
+}
+
 /*-----------------------------------------------------------
     3.4 Project Page
 ------------------------------------------------------------*/
@@ -255,6 +259,39 @@ nav > ul > li > a:active, nav > ul > li > a:focus {
     text-align: center;
 }
 
+
+.persona-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 350px;
+    margin-bottom: 16px;
+}
+
+.persona-name {
+    text-align: center;
+}
+
+.functionalities-title {
+    margin-top: 0;
+}
+
+.functionalities {
+    margin-bottom: 3em;
+}
+
+.user-story1 {
+    margin-top: 2em;
+}
+
+.rounded-corners {
+    border-radius: 2em;
+}
+
+.plantwise-mockup {
+    margin-top: 2em;
+}
 
 /*----------------------------------------------------------
     3.6 Footer
