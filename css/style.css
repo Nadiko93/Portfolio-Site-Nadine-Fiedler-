@@ -384,10 +384,6 @@ footer h2, footer p {
   .cloud-small-back {
     animation: 20s cloud-move-small infinite alternate linear;
   }
-
-  @keyframes cloud-move-big-reverse {
-    from {transform: translate(-300,10px);}
-    to {transform: translate(100px,10px);}
   }
 
   .cloud-big-back {
@@ -397,7 +393,14 @@ footer h2, footer p {
   @keyframes cloud-move-small-reverse {
     from {transform: translate(-100px, 20px);}
     to {transform: translate(50px, 20px);}
+@keyframes cloud-move-big-reverse {
+  from {
+    transform: translate(-100px, 10px);
   }
+  to {
+    transform: translate(100px, 10px);
+  }
+}
 
   .cloud-small-front {
     animation: 35s cloud-move-small-reverse infinite alternate linear;
