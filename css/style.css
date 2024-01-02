@@ -508,8 +508,19 @@ footer h2, footer p {
     display: flex;
     gap: 8px;
     align-items: center;
-}
+  }
 
+  .style-text {
+    flex: 2;
+  }
+
+  .style-img {
+    flex: 1;
+  }
+
+  .style {
+    align-items: center;
+  }
 
 /*------------------------------------------------------------------------
      5.1.4.2 Lingoshelf M
