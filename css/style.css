@@ -333,4 +333,58 @@ footer h2, footer p {
     font-size: 0.8em;
 }
 
+
+/*---------------------------------------------------------
+    4. CSS Animation
+-----------------------------------------------------------*/
+
+/* Lamp Color Change Animation */
+@keyframes color-change {
+    0% {fill: #FF977C;}
+    50% {fill: #F24650;}
+    100% {fill: #A11241;}
+  }
+
+  .lamp {
+    animation: 6s color-change infinite alternate linear;
+  }
+
+
+  /* Moving Cloud Animation */
+  @keyframes cloud-move-big {
+    from {transform: translate(0,20px);}
+    to {transform: translate(-100px,20px);}
+  }
+
+  .cloud-big-front {
+    animation: 30s cloud-move-big infinite alternate linear;
+  }
+
+  @keyframes cloud-move-small {
+    from {transform: translate(0, 8px);}
+    to {transform: translate(-150px, 8px);}
+  }
+
+  .cloud-small-back {
+    animation: 20s cloud-move-small infinite alternate linear;
+  }
+
+  @keyframes cloud-move-big-reverse {
+    from {transform: translate(-300,10px);}
+    to {transform: translate(100px,10px);}
+  }
+
+  .cloud-big-back {
+    animation: 20s cloud-move-big-reverse infinite alternate linear;
+  }
+
+  @keyframes cloud-move-small-reverse {
+    from {transform: translate(-100px, 20px);}
+    to {transform: translate(50px, 20px);}
+  }
+
+  .cloud-small-front {
+    animation: 35s cloud-move-small-reverse infinite alternate linear;
+  }
+
 }
