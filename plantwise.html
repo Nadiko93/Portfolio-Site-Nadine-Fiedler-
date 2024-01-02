@@ -38,18 +38,18 @@
             <div>
                 <h1>Plantwise</h1>
             </div>
-            <div>
-                <div>
+            <div class="flex plantwise-hero">
+                <div class="plantwise-main-mockup">
                     <picture>
                         <source
                           srcset="img/plantwise/small/plantwise_mockup-main@x1.png"
                           media="(max-width:767px)" >
                         <img
                           src="img/plantwise/large/plantwise_mockup-main@x2.png"
-                          alt="Screen Mockup of the Plantwise App" >
+                          alt="Screen Mockup of the Plantwise App">
                     </picture> 
                 </div>
-                <div>
+                <div class="main-text">
                     <h2>An engaging and motivating approach to money saving and environmental protection.</h2>
                 </div>
             </div>
@@ -60,10 +60,10 @@
             <div>
                 <h2>Project Overview</h2>
             </div>
-            <div>
+            <div class="flex plantwise-details">
                 <div>
                     <div>
-                        <p>Role</p>
+                        <h5>Role</h5>
                     </div>
                     <div>
                         <p>UI Design / UX Design</p>
@@ -71,14 +71,14 @@
                 </div>
                 <div>
                     <div>
-                        <p>Tools</p>
+                        <h5>Tools</h5>
                     </div>
                     <div>
                         <p>Figma / Adobe Illustrator / Adobe Photoshop</p>
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="flex">
                 <div>
                     <h3>Background</h3>
                     <p>For many, handling money and addressing environmental concerns can be intimidating, 
@@ -91,9 +91,9 @@
                 <div>
                     <h3>Challenges</h3>
                     <ul>
-                        <li>-	Unite a challenging topic like personal financial management with fun and engaging gaming elements 
+                        <li>Unite a challenging topic like personal financial management with fun and engaging gaming elements 
                             to motivate users who may not enjoy dealing with their finances.</li>
-                        <li>-	Managing money can be overwhelming, leading many people to avoid dealing with it altogether. 
+                        <li>Managing money can be overwhelming, leading many people to avoid dealing with it altogether. 
                             To make money management less intimidating, the app must offer an easy and understandable interface 
                             with functionalities that enable users to spend less time on their finances while still achieving 
                             positive outcomes.</li>
@@ -108,7 +108,8 @@
                       media="(max-width:767px)" >
                     <img
                       src="img/plantwise/large/plantwise_design-process@x2.png"
-                      alt="Illustration of the Design Process" >
+                      alt="Illustration of the Design Process" 
+                      class="center">
                 </picture> 
             </div>
         </div>
@@ -125,7 +126,7 @@
                     To achieve this, I initiated user interviews to gain a deeper understanding of my audience's struggles. 
                     These interviews unveiled the pain points and needs of my participants concerning money saving.</p>
             </div>
-            <div>
+            <div class="flex">
                 <div>
                     <h4>Pain Points</h4>
                     <ul>
@@ -150,17 +151,18 @@
                     These personas helped me give my audience a more tangible identity and guided the development of features 
                     tailored to the users.</p>
             </div>
-            <div>
+            <div class="flex">
                 <div>
                     <div>
-                        <h3>Ally</h3>
+                        <h3 class="persona-name">Ally</h3>
                         <picture>
                             <source
                               srcset="img/plantwise/small/plantwise_ally@x1.jpg"
                               media="(max-width:767px)" >
                             <img
                               src="img/plantwise/large/plantwise_ally@x2.jpg"
-                              alt="Picture of Ally" >
+                              alt="Picture of Ally" 
+                              class="persona-img">
                         </picture> 
                         <p>“It is challenging for me to save the same amount every month.”</p>
                     </div>
@@ -211,14 +213,15 @@
                 </div>
                 <div>
                     <div>
-                        <h3>Mathew</h3>
+                        <h3 class="persona-name">Mathew</h3>
                         <picture>
                             <source
                               srcset="img/plantwise/small/plantwise_mathew@x1.jpg"
                               media="(max-width:767px)" >
                             <img
                               src="img/plantwise/large/plantwise_mathew@x2.jpg"
-                              alt="Picture of Mathew" >
+                              alt="Picture of Mathew" 
+                              class="persona-img">
                         </picture> 
                         <p>“As long as the money is available for me I will spend it.”</p>
                     </div>
@@ -298,13 +301,20 @@
                         consequently, are necessary for the first version of the product.</p>
                 </div>
                 <div>
-                    <div>
+                    <div class="user-story1">
                         <div>
-                            <p>As a person with an unstable income, I want to have flexible saving options, 
-                                so that I can adjust my budget and save money based on my fluctuating income.</p>
+                            <picture>
+                                <source
+                                  srcset="img/plantwise/small/plantwise_user-story1@x1.png"
+                                  media="(max-width:767px)" >
+                                <img
+                                  src="img/plantwise/large/plantwise_user-story1@x2.png"
+                                  alt="Picture of Journey Map" 
+                                  class="center user-story">
+                            </picture> 
                         </div>
-                        <div>
-                            <h5>Functionalities:</h5>
+                        <div class="functionalities center">
+                            <h5 class="functionalities-title">Functionalities:</h5>
                             <ul>
                                 <li>Add the possibility to set percentages instead of a fixed amount.</li>
                             </ul>
@@ -312,23 +322,39 @@
                     </div>
                     <div>
                         <div>
-                            <p>As a money-saver, I want to track my expenses easily and effortlessly, 
-                                so that I have a better understanding of my actual spending habits.</p>
+                            <picture>
+                                <source
+                                  srcset="img/plantwise/small/plantwise_user-story2@x1.png"
+                                  media="(max-width:767px)" >
+                                <img
+                                  src="img/plantwise/large/plantwise_user-story2@x2.png"
+                                  alt="Picture of Journey Map" 
+                                  class="center user-story">
+                            </picture> 
                         </div>
                         <div>
-                            <h5>Functionalities:</h5>
+                        <div class="functionalities center">
+                            <h5 class="functionalities-title">Functionalities:</h5>
                             <ul>
                                 <li>Feature to insert expenses and income</li>
                                 <li>Option to link bank account</li>
                             </ul>
                         </div>
                     </div>
+                    </div>
                     <div>
                         <div>
-                            <p>As a user, I want to have different categories for my expenses, so that I can analyze how much I'm spending on what.</p>
-                        </div>
-                        <div>
-                            <h5>Functionalities:</h5>
+                            <picture>
+                                <source
+                                  srcset="img/plantwise/small/plantwise_user-story3@x1.png"
+                                  media="(max-width:767px)" >
+                                <img
+                                  src="img/plantwise/large/plantwise_user-story3@x2.png"
+                                  alt="Picture of Journey Map" 
+                                  class="center user-story">
+                            </picture> 
+                        <div class="functionalities center">
+                            <h5 class="functionalities-title">Functionalities:</h5>
                             <ul>
                                 <li>Add income and expenses to categories</li>
                             </ul>
@@ -336,22 +362,39 @@
                 </div>
                 <div>
                     <div>
-                        <p>As a person who is not financially savvy, I want to have an engaging and motivating way to save my money, 
-                            so that I don't get bored while saving for my goals.</p>
+                        <picture>
+                            <source
+                              srcset="img/plantwise/small/plantwise_user-story4@x1.png"
+                              media="(max-width:767px)" >
+                            <img
+                              src="img/plantwise/large/plantwise_user-story4@x2.png"
+                              alt="Picture of Journey Map" 
+                              class="center user-story">
+                        </picture> 
                     </div>
                     <div>
-                        <h5>Functionalities:</h5>
+                    <div class="functionalities center">
+                        <h5 class="functionalities-title">Functionalities:</h5>
                         <ul>
                             <li>Add Gamification elements</li>
                         </ul>
                     </div>
                 </div>
+                </div>
                 <div>
                     <div>
-                        <p>As a money-saver, I want to save money for a specific goal that is limited in time, so that I can afford things I normally cannot.</p>
+                        <picture>
+                            <source
+                              srcset="img/plantwise/small/plantwise_user-story5@x1.png"
+                              media="(max-width:767px)" >
+                            <img
+                              src="img/plantwise/large/plantwise_user-story5@x2.png"
+                              alt="Picture of Journey Map" 
+                              class="center user-story">
+                        </picture> 
                     </div>
-                    <div>
-                        <h5>Functionalities:</h5>
+                    <div class="functionalities center">
+                        <h5 class="functionalities-title">Functionalities:</h5>
                         <ul>
                             <li>Set Saving goals</li>
                         </ul>
@@ -463,13 +506,9 @@
                       alt="Screens of Solution to Usability Problem 1" >
                 </picture> 
             </div>
-            <div>
                 <div>
                     <h4>Problem 2: </h4>
                     <p>The Home Screen lacks the feature to directly add transactions or saving goals.</p>
-                </div>
-                <div>
-                    <h4>Solution</h4>
                 </div>
                 <picture>
                     <source
@@ -489,7 +528,7 @@
             <h2>The Visual Design: From Style Guide to Screen Implementation</h2>
         </div>
         <div>
-            <div>
+            <div class="flex">
                 <div>
                     <h3>Giving the design a personality</h3>
                     <p>Following the user tests and the implementation of improvements in my grayscale wireframes, I progressed by further developing the app's 
@@ -522,7 +561,7 @@
                 </picture>
             </div>
         </div>
-        <div>
+        <div class="plantwise-mockup plantwise-mockup-m">
             <div>
                 <picture>
                     <source
@@ -530,7 +569,8 @@
                       media="(max-width:767px)" >
                     <img
                       src="img/plantwise/large/plantwise_mockup4@x2.jpg"
-                      alt="Phone Screen of the Dashboard of the Plantwise App" >
+                      alt="Phone Screen of the Dashboard of the Plantwise App" 
+                      class="rounded-corners">
                 </picture>
             </div>
             <div>
@@ -540,7 +580,8 @@
                       media="(max-width:767px)" >
                     <img
                       src="img/plantwise/large/plantwise_mockup5@x2.jpg"
-                      alt="Phone Screen of the Insight Screen of the Plantwise App" >
+                      alt="Phone Screen of the Insight Screen of the Plantwise App"
+                      class="rounded-corners">
                 </picture>
             </div>
         </div>
