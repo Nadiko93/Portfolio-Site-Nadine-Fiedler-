@@ -162,9 +162,8 @@ a:active, a:focus {
 
 header {
     text-align: center;
-    padding: 10px 0;
     background-color: #688D70;
-    padding: 0 0 20px 0;
+    padding: 10px 0 20px 0;
     display: inline-block;
     width: 100%;
 }
@@ -234,7 +233,6 @@ nav > ul > li > a:active, nav > ul > li > a:focus {
 
 #work .row {
     padding-bottom: 25px;
-    /*border-bottom: 1px solid #0F0F0F;*/
 }
 
 
