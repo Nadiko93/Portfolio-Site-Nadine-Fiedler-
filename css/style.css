@@ -44,15 +44,16 @@ body {
 
 /* Heading Default*/
 h1, h2, h3, h4 {
-    line-height: 1.4;
+    line-height: 1.7;
 }
 
 h1 {
     font-family: 'Oswald', 'Poppins', sans-serif;
     font-size: 3.75em;
     font-weight: 700;
-    margin-top: 0;
+    margin-top: 16px;
     text-align: center;
+
 }
 
 h2 {
@@ -63,16 +64,26 @@ h2 {
 h3 {
     font-size: 1.35em;
     font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
 }
 
 h4 {
     font-size: 1.15em;
     font-weight: 600;
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
 }
 
 h5 {
     font-weight: 600;
     font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    max-width: 900px;
+    margin-top: 0;
 }
 
 
