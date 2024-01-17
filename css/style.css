@@ -224,6 +224,56 @@ nav > ul > li > a:focus {
   color: #000000;
 }
 
+.navtoggle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: unset;
+  padding: 24px 48px 0 48px;
+}
+
+.navtoggle li a:link,
+.navtoggle li a:visited,
+.navtoggle li a:hover,
+.navtoggle li a:active,
+.navtoggle li a:focus {
+  color: #f3f9f4;
+}
+
+.navtoggle li:not(:first-child) {
+  display: none;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  text-align: right;
+}
+
+/* .navtoggle.responsive nav {
+  padding: 24px 0 0;
+} */
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-bottom: 2px solid #f3f9f4;
+}
+
+.navtoggle.responsive li:first-child {
+  padding: 0 0 10px;
+  border-bottom: none;
+  padding-bottom: 0;
+  /* margin-bottom: 0; */
+  float: right;
+}
+
+.navtoggle.responsive li a:link,
+.navtoggle.responsive li a:visited,
+.navtoggle.responsive li a:hover,
+.navtoggle.responsive li a:active,
+.navtoggle.responsive li a:focus {
+  color: #f3f9f4;
+}
 
 /*---------------------------------------------------------
     3.2 Homepage
@@ -479,11 +529,30 @@ footer p {
      5.1.1 Header M
 -----------------------------------------------------------------*/
 
+  /* .navtoggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: unset;
+    padding: 24px 48px;
+  } */
 
-    nav {
-        width: auto;
-        float: right;
-    }
+  nav {
+    width: auto;
+    float: right;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:first-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:first-child {
+    display: none;
+  }
 
   /*-------------------------------------------------------------------
     5.1.2 Homepage M
