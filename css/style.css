@@ -63,7 +63,7 @@ h4 {
 
 h1 {
   font-family: "Oswald", "Poppins", sans-serif;
-  font-size: 3.75em;
+  font-size: 3em;
   font-weight: 700;
   margin-top: 16px;
   text-align: center;
@@ -71,7 +71,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 2em;
   font-weight: 700;
 }
 
@@ -98,6 +98,14 @@ h5 {
 p {
   max-width: 900px;
   margin-top: 0;
+}
+
+.introduction{
+  font-size: 1.15em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+  max-width: none;
 }
 
 /*----------------------------------------------------------
@@ -180,7 +188,7 @@ a:focus {
 header {
   /* text-align: center; */
   background-color: #688d70;
-  padding: 10px 0 20px 0;
+  /* padding: 10px 0 20px 0; */
   display: inline-block;
   width: 100%;
 }
@@ -483,6 +491,25 @@ footer p {
 /*----------------------------------------------------------
     5. Responivenes
 ------------------------------------------------------------*/
+
+/*-----------------------------------------------------------
+  5.1 Small devices (415px and larger)
+-------------------------------------------------------------*/
+@media only screen and (min-width: 415px) {
+  h1{
+    font-size: 3.75em;
+  }
+
+  h2{
+    font-size: 2.25em;
+  }
+
+  .introduction{
+    font-weight: 600;
+  }
+
+}
+
 
 /*-----------------------------------------------------------
     5.1  Medium devices (640px and larger) 
