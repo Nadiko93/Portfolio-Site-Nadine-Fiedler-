@@ -147,7 +147,7 @@ a:focus {
   font-weight: 600;
   padding: 12px 16px;
   border-radius: 20px;
-  transition: 0.2s opacity;
+  transition: background-color 0.2s ease;
   margin: 8px 0 16px 0;
 }
 
@@ -221,6 +221,7 @@ nav > ul > li > a:visited {
   text-transform: uppercase;
   font-weight: 700;
   color: #f3f9f4;
+  transition: color 0.3s ease;
 }
 
 nav > ul > li > a:hover {
@@ -240,11 +241,11 @@ nav > ul > li > a:focus {
   padding: 24px 48px 0 48px;
 }
 
-.navtoggle li a:link,
-.navtoggle li a:visited,
-.navtoggle li a:hover,
-.navtoggle li a:active,
-.navtoggle li a:focus {
+.icon:link,
+.icon:visited,
+.icon:hover,
+.icon:active,
+.icon:focus {
   color: #f3f9f4;
 }
 
