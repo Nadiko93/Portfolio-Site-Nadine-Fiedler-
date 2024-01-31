@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="jp" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    
+     <!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <script
+      src="https://kit.fontawesome.com/938ab8defb.js"
+      crossorigin="anonymous"></script>
+    <title>Nadine Fiedler - UI/UX Design</title>
+  </head>
+  <body class="jp">
+
+    <!-- Header Section-->
+    <header>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="../index.html" class="logo">Nadine Fiedler</a>
+        <nav>
+          <ul>
+            <li>
+              <a href="javascript:void(0);" class="hamburger-menu" onclick="menuToggle()"
+                ><i class="fas fa-bars"></i
+              ></a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" class="hamburger-menu" onclick="menuToggle()"
+                ><i class="fa-solid fa-xmark"></i></i
+              ></a>
+            </li>
+            <li class="nav-item"><a href="index.html">Work</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+            <li class="language-option-small"><a href="../index.html" class="language-option"><img src="../img/icon/flag-britian.svg" alt="an illustration of a british flag" class="english"></a></li>
+            <li class="language-option-small"><a href="index.html" class="language-option"><img src="../img/icon/flag-japan.svg" alt="an illustration of a japanese flag" class="japanese"></a></li>
+          </ul>
+          <a href="../index.html" class="language-option"><img src="../img/icon/flag-britian.svg" alt="an illustration of a british flag" class="english language-option-large"></a>
+          <a href="index.html" class="language-option"><img src="../img/icon/flag-japan.svg" alt="an illustration of a japanese flag" class="japanese language-option-large"></a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+      <div id="hero">
+        <!-- Hero Section -->
+        <div class="container">
+          <h1 class="jp-h1">
+            日本を拠点に活動している<span>UI/UXデザイナーのナディーンです。</span></h1>
+          <p class="introduction jp">
+            日常の問題に対する解決策を見つけ、
+            没入感のある視覚的に魅力的なデザインを創造することに力を入れています。
+          </p>
+        </div>
+      </div>
+
+      <!-- My Work Section-->
+      <div id="work">
+        <div class="container">
+          <h2 class="home-h2-margin jp">My Work</h2>
+
+          <!-- Project 1: Plantwise -->
+          <div class="row">
+            <div class="column col-md-6 col-lg-7">
+              <picture>
+                <source
+                  srcset="../img/homepage/plantwise_project-img@x1.jpg"
+                  media="(max-width:767px)">
+                <img
+                  src="../img/homepage/plantwise_project-img@x2.jpg"
+                  alt="Mockup of the money saving app Plantwise.">
+              </picture>
+            </div>
+            <div class="column col-md-6 col-lg-5">
+              <h3 class="jp">Plantwise</h3>
+              <p class="jp">
+                ユーザーの目標に向けて貯金することで木を植え、
+                地球をより緑豊かにする環境志向の貯金アプリです。
+              </p>
+              <div class="app-categories jp">
+                <p>UIデザイン</p>
+                <p>UXデザイン</p>
+                <p>ネイティブモバイルアプリ</p>
+                <p>フィンテック</p>
+                <p>貯金アプリ</p>
+                <p>ゲーミフィケーション</p>
+              </div>
+              <div class="btn-center btn-left">
+              <a href="plantwise.html" class="button jp">詳細を見る <img src="../img/icon/icon-arrow.svg" class="button-icon"></a>
+            </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Lingoshelf -->
+          <div class="row">
+            <div class="column col-md-6 col-lg-7">
+              <picture>
+                <source
+                  srcset="../img/homepage/lingoshelf_project-img@x1.jpg"
+                  media="(max-width:767px)">
+                <img
+                  src="../img/homepage/lingoshelf_project-img@x2.jpg"
+                  alt="Mockup of the language learning app Lingoshelf.">
+              </picture>
+            </div>
+            <div class="column col-md-6 col-lg-5">
+              <h3 class="jp">Lingoshelf</h3>
+              <p class="jp">
+                上級言語学習者向けの言語学習アプリです。
+                お気に入りの本を読みながら、楽しみながら目標言語を流暢に話せるようになります。
+              </p>
+              <div class="app-categories jp">
+                <p>UIデザイン</p>
+                <p>UXデザイン</p>
+                <p>ネイティブモバイルアプリ</p>
+                <p>言語学習</p>
+                <p>読書</p>
+              </div>
+              <div class="btn-center btn-left">
+              <a href="lingoshelf.html" class="button jp">詳細を見る <img src="../img/icon/icon-arrow.svg" class="button-icon"></a>
+            </div>
+            </div>
+          </div>
+
+          <!-- CSS Animation -->
+          <div class="row">
+            <div class="column col-md-6 col-lg-7">
+              <img src="../img/homepage/fuji.svg" alt="">
+            </div>
+            <div class="column col-md-6 col-lg-5">
+              <h3 class="animation-headline jp">CSS Animation</h3>
+              <p class="jp">CSSで作成された楽しいデモアニメーション。</p>
+              <div class="app-categories jp">
+                <p>CSS</p>
+                <p>アニメーション</p>
+              </div>
+              <div class="btn-center btn-left">
+              <a href="animation.html" class="button jp">詳細を見る <img src="../img/icon/icon-arrow.svg" class="button-icon"></a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+      <div class="container">
+
+        <!-- Contact -->
+        <h2 class="home-h2-margin jp contact-headline">Contact</h2>
+        <p class="jp">
+          お問い合わせやご感想等は、ぜひ気軽にご連絡ください。
+        </p>
+        <div class="btn-center"><a href="mailto:nadine_fiedler@gmx.net" class="button contact jp">お問い合わせ</a></div>
+
+        <!-- Social Media accounts-->
+        <div class="container socials">
+
+          <!-- <div class="sns-icons"> -->
+          <!-- Linkedin -->
+          <a href="https://www.linkedin.com/in/nadine-fiedler-30a0262a3/" target="_blank" class="icon"
+            >
+              <img src="../img/icon/icon-linkedin.svg" alt="Linkedin" class="no-margin-top">
+           </a>
+
+          <!-- Instargram -->
+          <a href="https://www.instagram.com/nadiko_93/" target="_blank" class="icon"
+            >
+              <img src="../img/icon/icon-insta.svg" alt="Instagram" class="no-margin-top">
+            </a>
+
+          <!-- Behance -->
+         <a href="https://www.behance.net/nadinefiedler" target="_blank" class="icon"
+            >
+              <img src="../img/icon/icon-behance.svg" alt="Behance" class="no-margin-top">
+          </a>
+
+          <!-- Github -->
+          <a href="https://github.com/nadiko93" target="_blank" class="icon">
+            <img src="../img/icon/icon-github.svg" alt="Github" class="no-margin-top">
+          </a>
+           
+            <!-- </div> -->
+        </div>
+        <p class="copyright jp">&copy; Copyright Nadine Fiedler 2023</p>
+      </div>
+    </footer>
+
+    <!-- Javascript Link -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"></script>
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>
