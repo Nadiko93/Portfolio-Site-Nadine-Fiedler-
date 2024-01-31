@@ -362,6 +362,33 @@ nav > ul > li > a:focus {
   text-align: center;
 }
 
+.toolset {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.tool-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  padding-right: 50px;
+}
+
+.tool-details img {
+height: 32px;
+width: 32px;
+}
+
+.tool-details p {
+  margin: 0;
+}
+
 
 /*-----------------------------------------------------------
     3.4 Project Page
@@ -681,12 +708,20 @@ footer p {
     padding-left: 100px;
   }
 
+  .toolset {
+    margin-left: 0;
+  }
+
   /*----------------------------------------------------------------------
     5.2.4 Project Pages M
 ------------------------------------------------------------------------*/
 
 .project img {
   margin-top: 3em;
+}
+
+.toolset {
+  max-height: none;
 }
 
   /*-----------------------------------------------------------------------
@@ -770,6 +805,16 @@ footer p {
     margin-left: auto;
     margin-right: auto;
   }
+
+
+/*-------------------------------------------------------------------------------
+    5.3.1 About Page
+---------------------------------------------------------------------------------*/
+
+.toolset {
+  max-height: 200px;
+}
+
 }
 
 /*------------------------------------------------------------------------------
