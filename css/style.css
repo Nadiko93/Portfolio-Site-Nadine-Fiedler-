@@ -422,16 +422,14 @@ nav > ul > li > a:focus {
 
 footer {
   background-color: #688d70;
-  color: #f3f9f4;
-  padding: 16px 15px;
   color: #0f0f0f;
+  padding: 16px 15px;
 }
 
-.linkedin,
-.insta,
-.behance {
+.icon {
   display: inline-block;
-  width: 15%;
+  width: 4%;
+  min-width: 48px;
 }
 
 footer h2,
@@ -443,14 +441,9 @@ footer p {
 .socials {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  margin: 24px 0;
-}
-
-.sns-icons {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  margin: 24px 0;
   gap: 16px;
 }
 
