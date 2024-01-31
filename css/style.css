@@ -417,6 +417,15 @@ footer p {
   font-size: 0.8em;
 }
 
+.contact-headline {
+  margin-bottom: 0.5em;
+}
+
+/* Japanese Styling */
+/* .contact-jp {
+  text-transform: uppercase;
+} */
+
 /*---------------------------------------------------------
     4. CSS Animation
 -----------------------------------------------------------*/
@@ -490,6 +499,7 @@ footer p {
 .cloud-small-front {
   animation: 35s cloud-move-small-reverse infinite alternate linear;
 }
+
 
 /*----------------------------------------------------------
     5. Responive
@@ -597,6 +607,10 @@ footer p {
     text-align: left;
   }
 
+  .home-h2-margin {
+    margin-top: 1em;
+    text-transform: uppercase;
+  }
   /*--------------------------------------------------------------------
     5.2.3 About M
 ----------------------------------------------------------------------*/
