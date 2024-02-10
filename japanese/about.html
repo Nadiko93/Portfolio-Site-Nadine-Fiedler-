@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="jp" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <script
+      src="https://kit.fontawesome.com/938ab8defb.js"
+      crossorigin="anonymous"></script>
+    <title>About Me</title>
+  </head>
+  <body class="jp">
+    <!-- Header Section-->
+    <header>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="../index.html" class="logo">Nadine Fiedler</a>
+        <nav>
+          <ul>
+            <li>
+              <a href="javascript:void(0);" class="hamburger-menu" onclick="menuToggle()"
+                ><i class="fas fa-bars"></i
+              ></a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" class="hamburger-menu" onclick="menuToggle()"
+                ><i class="fa-solid fa-xmark"></i></i
+              ></a>
+            </li>
+            <li class="nav-item"><a href="index.html">Work</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+            <li class="language-option-small"><a href="../about.html" class="language-option"><img src="../img/icon/flag-britian.svg" alt="an illustration of a british flag" class="english"></a></li>
+            <li class="language-option-small"><a href="about.html" class="language-option"><img src="../img/icon/flag-japan.svg" alt="an illustration of a japanese flag" class="japanese"></a></li>
+          </ul>
+          <a href="../about.html" class="language-option"><img src="../img/icon/flag-britian.svg" alt="an illustration of a british flag" class="english language-option-large"></a>
+          <a href="about.html" class="language-option"><img src="../img/icon/flag-japan.svg" alt="an illustration of a japanese flag" class="japanese language-option-large"></a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+      <div id="about">
+        <!-- About heading -->
+        <div class="container">
+          <div>
+            <h1 class="about-h1-jp about-h1-margin">About Me</h1>
+          </div>
+        </div>
+
+        <!-- About me section -->
+        <div class="container">
+          <div class="row margin-16">
+            <!-- My Story Section -->
+            <div class="column col-lg-7 about-jp intro-text">
+              <p>
+                こんにちは、私はナディーン・フィードラーと申します。
+                ドイツ出身で、現在は日本に拠点を置くUI/UXデザイナーです。
+                日常の問題に対する解決策を見つけ、
+                没入感のある視覚的に魅力的なデザインを創造することに力を入れています。
+              </p>
+              <p>
+                日本研究という学位を取得した後、
+                2020年11月に日本の会社に就職するために日本に来ました。
+                その間にUI/UXデザインへの情熱を発見し、
+                2023年11月にCareerfoundryでUIデザインの資格を取得しました。
+              </p>
+              <p>
+                いくつかの国での生活経験のもとで、
+                西洋と日本の経済圏の両方に対するユニークな視点と理解をもたらし、
+                様々な地域のユーザーのニーズに基づいた多様な解決策を見つけることができます。
+              </p>
+              <p>
+                デザインをしていないときは、様々な言語で本を読んだり、
+                新しいカフェを探索したり、ビデオゲームでリラックスしています。
+                また、自己学習に情熱を持ち、現在のスキルセットを常に向上させたり、
+                まったく新しいスキルを習得する衝動があります。
+              </p>
+            </div>
+
+            <div class="column col-lg-5 about-jp">
+              <picture class="about-img">
+                <source
+                  srcset="../img/about/about@x1.png"
+                  media="(max-width:640px)">
+                <img
+                  src="img/about/about@x2.png"
+                  alt="Picture of Nadine Fiedler">
+              </picture>
+            </div>
+          </div>
+
+          <!-- Skills & Tools Section -->
+          <div class="row">
+            <!-- <h2>Skills & Tools</h2> -->
+
+            <!-- Skills -->
+            <div class="column col-md-6 col-lg-6 skills">
+              <h3>スキル</h3>
+              <ul>
+                <li>
+                  <span class="bold">UIデザイン</span> (高忠実度イヤーフレーム、モックアップ、レスポンシブデザイン、プロトタイプ)
+                </li>
+                <li>
+                  <span class="bold">UXデザイン</span> (UXリサーチ、競合分析、ペルソナ、ユーザーフロー、ワイヤーフレーム、ユーザビリティテスト)
+                </li>
+                <li><span class="bold">フロントエンド開発</span> (HTML、CSS、JavaScript、レスポンシブデザイン)</li>
+              </ul>
+            </div>
+
+            <!-- Tools -->
+            <div class="column col-md-6 col-lg-6 tools">
+              <h3>使用ツール</h3>
+              <div class="toolset">
+                <div class="tool-details"><img src="../img/icon/icon-figma.svg" alt="Figma Icon"><p>Figma</p></div>
+                <div class="tool-details"><img src="../img/icon/icon-adobe-xd.svg" alt="Adobe XD Icon"><p>Adobe XD</p></div>
+                <div class="tool-details"><img src="../img/icon/icon-illustrator.svg" alt="Illustrator Icon"><p>Illustrator</p></div>
+                <div class="tool-details"><img src="../img/icon/icon-photoshop.svg"><p>Photoshop</p></div>
+                <div class="tool-details"><img src="../img/icon/icon-html.svg"><p>HTML5</p></div>
+                <div class="tool-details"><img src="../img/icon/icon-css.svg"><p>CSS3</p></div>
+                <div class="tool-details"><img src="../img/icon/icon-javascript.svg"><p>JavaScript</p></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+      <div class="container">
+
+        <!-- Contact -->
+        <h2 class="home-h2-margin jp contact-headline">Contact</h2>
+        <p class="jp">
+          お問い合わせやご感想等は、ぜひ気軽にご連絡ください。
+        </p>
+        <div class="btn-center"><a href="mailto:nadine_fiedler@gmx.net" class="button contact jp">お問い合わせ</a></div>
+
+        <!-- Social Media accounts-->
+        <div class="container socials">
+
+          <!-- <div class="sns-icons"> -->
+          <!-- Linkedin -->
+          <a href="https://www.linkedin.com/in/nadine-fiedler-30a0262a3/" target="_blank" class="icon"
+            >
+              <img src="../img/icon/icon-linkedin.svg" alt="Linkedin" class="no-margin-top">
+           </a>
+
+          <!-- Instargram -->
+          <a href="https://www.instagram.com/nadiko_93/" target="_blank" class="icon"
+            >
+              <img src="../img/icon/icon-insta.svg" alt="Instagram" class="no-margin-top">
+            </a>
+
+          <!-- Behance -->
+         <a href="https://www.behance.net/nadinefiedler" target="_blank" class="icon"
+            >
+              <img src="../img/icon/icon-behance.svg" alt="Behance" class="no-margin-top">
+          </a>
+
+          <!-- Github -->
+          <a href="https://github.com/nadiko93" target="_blank" class="icon">
+            <img src="../img/icon/icon-github.svg" alt="Github" class="no-margin-top">
+          </a>
+           
+            <!-- </div> -->
+        </div>
+        <p class="copyright jp">&copy; Copyright Nadine Fiedler 2023</p>
+      </div>
+    </footer>
+
+
+    <!-- Javascript Link -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"></script>
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>
