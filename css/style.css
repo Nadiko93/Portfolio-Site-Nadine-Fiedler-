@@ -133,6 +133,17 @@ p {
   text-transform: uppercase;
 }
 
+/* Japanese Style */
+.jp-h1 {
+  font-family: "Mochiy Pop One", "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+}
+
+.jp {
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.7;
+}
+
 /*----------------------------------------------------------
     3. Page Structure
 ------------------------------------------------------------*/
@@ -812,6 +823,23 @@ footer p {
 
   .toolset {
     margin-left: 0;
+  }
+
+  /* Japanese Style */
+  .about-jp {
+    padding: 10px 16px;
+  }
+
+  .intro-text {
+    margin-top: 32px;
+  }
+
+  .about-h1-jp {
+    margin-bottom: 0;
+  }
+
+  .margin-16 {
+    margin-top: 32px;
   }
 
   /*----------------------------------------------------------------------
