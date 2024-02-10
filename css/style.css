@@ -101,6 +101,18 @@ p {
   margin-top: 0;
 }
 
+.width-850 {
+  max-width: 850px;
+}
+
+.width-500 {
+  max-width: 500px;
+}
+
+.width-440 {
+  max-width: 440px;
+}
+
 .introduction{
   font-size: 1.15em;
   font-weight: 400;
@@ -111,6 +123,14 @@ p {
 
 .bold {
   font-weight: 700;
+}
+
+.home-h2-margin {
+ text-transform: uppercase;
+}
+
+.about-h1-margin {
+  text-transform: uppercase;
 }
 
 /*----------------------------------------------------------
@@ -247,7 +267,7 @@ nav > ul > li > a:focus {
   align-items: flex-start;
   justify-content: space-between;
   text-align: unset;
-  padding: 24px 48px 0 48px;
+  padding: 24px 24px 0 24px;
 }
 
 .icon:link,
@@ -644,6 +664,10 @@ footer p {
     width: 70%;
   }
 
+  .width-hundred {
+    width: 100%;
+  }
+
   .flex {
     display: flex;
     align-items: flex-start;
@@ -668,8 +692,20 @@ footer p {
       margin-top: 1em;
     }
 
-    .no-margin-top {
+   .no-margin-top {
       margin-top: 0;
+    }
+
+    .project .no-margin-top {
+      margin-top: 0;
+    }
+
+    .margin-listpoint {
+      margin-top: 32px;
+    }
+
+    .home-h2-margin {
+      margin-top: 1em;
     }
 
 
@@ -744,11 +780,6 @@ footer p {
     text-align: left;
   }
 
-  .home-h2-margin {
-    margin-top: 1em;
-    text-transform: uppercase;
-  }
-
   .app-categories {
     justify-content: flex-start;
     margin-bottom: 64px;
@@ -796,6 +827,7 @@ footer p {
 
   .plantwise-details {
     justify-content: flex-start;
+    gap: 64px;
   }
 
   .user-story {
@@ -835,6 +867,11 @@ footer p {
   .solution1 {
     margin-bottom: 32px;
   }
+
+  .width-250 {
+    min-width: 250px;
+  }
+
 
 }
 
