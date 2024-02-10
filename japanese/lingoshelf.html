@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="jp" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/938ab8defb.js" crossorigin="anonymous"></script>
+    <title>Lingoshelf Case Study</title>
+  </head>
+  <body class="jp">
+    <!-- Header Section-->
+    <header>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="../index.html" class="logo">Nadine Fiedler</a>
+        <nav>
+          <ul>
+            <li>
+              <a href="javascript:void(0);" class="hamburger-menu" onclick="menuToggle()"
+                ><i class="fas fa-bars"></i
+              ></a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" class="hamburger-menu" onclick="menuToggle()"
+                ><i class="fa-solid fa-xmark"></i></i
+              ></a>
+            </li>
+            <li class="nav-item"><a href="index.html">Work</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+            <li class="language-option-small"><a href="../lingoshelf.html" class="language-option"><img src="../img/icon/flag-britian.svg" alt="an illustration of a british flag" class="english"></a></li>
+            <li class="language-option-small"><a href="lingoshelf.html" class="language-option"><img src="../img/icon/flag-japan.svg" alt="an illustration of a japanese flag" class="japanese"></a></li>
+          </ul>
+          <a href="../lingoshelf.html" class="language-option"><img src="../img/icon/flag-britian.svg" alt="an illustration of a british flag" class="english language-option-large"></a>
+          <a href="lingoshelf.html" class="language-option"><img src="../img/icon/flag-japan.svg" alt="an illustration of a japanese flag" class="japanese language-option-large"></a>
+        </nav>
+      </div>
+    </header>
+
+
+    <!-- Main Section -->
+    <main class="project jp">
+        <div class="container">
+            <!-- Top Section -->
+            <div class="row top">
+        <picture>
+            <source
+              srcset="../img/lingoshelf/small/lingoshelf_logo@x1.png"
+              media="(max-width:767px)" >
+            <img
+              src="../img/lingoshelf/large/lingoshelf_logo@x2.png"
+              alt="Lingoshelf Logo" 
+              class="center">
+          </picture>
+          <h2 class="no-margin-top">お気に入りの本を読みながら言語を学ぶ</h2>
+          <picture>
+            <source
+              srcset="../img/lingoshelf/small/lingoshelf_mockup-main@x1.png"
+              media="(max-width:767px)" >
+            <img
+              src="../img/lingoshelf/large/lingoshelf_mockup-main@x2.png"
+              alt="A variety of mockup screens of the Lingoshelf App" >
+          </picture>
+            </div>
+
+            <!-- Project Overview Section -->
+            <div class="row">
+                <div>
+                    <h2>プロジェクトの概要</h2>
+                </div>
+                <div class="flex">
+                    <div>
+                        <h5 class="width-250">役割</h5>
+                        <p>UIデザイン、UXデザイン</p>
+                    </div>
+                    <div>
+                        <h5>プロジェクトの範囲</h5>
+                        <p>ユーザーフロー、ワイヤーフレーム、プロトタイプ、ユーザビリティテスト</p>
+                    </div>
+                    <div>
+                        <h5>ツール</h5>
+                        <p>Figma, Adobe Photoshop, Adobe Illustrator</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>背景</h3>
+                    <p>私自身が情熱的な言語学習者であり、言語学習の旅で数多くの挑戦と挫折に直面してきました。
+                      そして、母国語の資料へ移行する際の大変さを身をもって理解しています。
+                      学習者が自分の教材に自信を持ち始めると、母国語話者向けの小説などに取り組むことは心配で、
+                      まだ学ぶべきことがいかに多いかを実感させられます。
+                      これはしばしば圧倒感や不安などのネガティブな感情につながります。
+                      これらの感情を防ぐためには、学習者が母国語の読み物にスムーズに慣れるよう支援し、
+                      言語学習と読書の楽しみをシームレスに融合させることが必要です。</p>
+                </div>
+                <div class="flex">
+                    <div class="width-500">
+                        <h3>課題</h3>
+                        <ul>
+                            <li>本と外部の辞書を行き来することで、読書の流れが途切れがちになります。</li>
+                            <li>本の難易度を表紙やあらすじだけで判断すると、そのレベルが学習者の現在の言語スキルと合わない場合、
+                              フラストレーションの原因となることがあります。</li>
+                            <li>読書は受動的に語彙を増やす効果的な方法ですが、これを能動的な学習体験に変換することは困難で疲れることがあり、
+                              しばしば読書の楽しさを損ないます。</li>
+                        </ul>
+                    </div>
+                    <div class="width-500">
+                        <h3>解決策</h3>
+                        <ul>
+                            <li>読みながら直接単語を調べるために、組み込み辞書を実装する。</li>
+                            <li>各本の難易度を表示し、学習者が自分のスキルレベルに合っているかどうかをより良く評価できるようにする。</li>
+                            <li>-	ユーザーが本で読んだ文章のもとに学習機会を提供し、文脈で学べるようにする。</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Defining the direction -->
+            <div class="row">
+                <div>
+                    <h2>方向性の定義</h2>
+                </div>
+                <div>
+                <div>
+                    <h3>適切な質問をする</h3>
+                    <p>デザイン要件のより良い理解を得るために、私はまず5WHの質問を定義しました。
+                      これらの質問は、当初の対象者を特定し、アプリに実装すべき主要な機能を明らかにするのに役立ちました。</p>
+                </div>
+                <div class="flex">
+                    <div class="width-500">
+                        <div>
+                            <h4>ユーザーは誰ですか？</h4>
+                            <ul>
+                                <li>中級および上級の言語学習者</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="margin-listpoint">ユーザーが達成するタスクと目標はどのようなものですか？</h4>
+                            <ul>
+                                <li>ユーザーは、本物のコンテンツを没入して読むことで、言語スキルを向上させます。</li>
+                                <li>ユーザーは、新しく習得した単語を積極的に練習します。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="width-500">
+                        <h4>ユーザーはどのようにして彼らの目標を達成しますか？</h4>
+                        <ul>
+                            <li>ユーザーは、自分の言語能力と興味に合った本にアクセスできます。</li>
+                            <li>ユーザーは、読みながら単語の意味を調べて保存できます。</li>
+                            <li>ユーザーは、練習問題やフラッシュカードを使って新しい語彙を練習できます。</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="user-flow">
+                <div>
+                <h3>ユーザーフローの理解</h3>
+                <p>5WHの質問で定義した機能を活用して、
+                  ユーザーが目標を達成するための必要なステップを代表する4つの異なるユーザーフローを作成しました。
+                  オンボーディングプロセスに加えて、本の検索、読書中の単語の保存、語彙フラッシュカードのユーザーフローを作成しました。</p>
+                <p>その後、これらのユーザーフローのもとで低忠実度のワイヤーフレームに構築し、
+                  アプリ全体でスムーズでユーザーフレンドリーな体験を保証するための重要な要素を強調しました。</p>
+                </div>
+                <div>
+                    <h3>オンボーディングフロー</h3>
+                    <p>迅速かつ簡単なオンボーディングのために、ユーザーは自分のソSNSアカウントで登録し、学びたい言語を選択した後で、
+                      すぐに最初の本を読み始めることができます。</p>
+                        <picture>
+                            <source
+                              srcset="img/lingoshelf/small/lingoshelf_onboarding-flow_jp@x1.png"
+                              media="(max-width:767px)" >
+                            <img
+                              src="img/lingoshelf/large/lingoshelf_onboarding-flow_jp@x2.png"
+                              alt="Mid Fidelity Wireframes and User Flow from the Onboarding Process"
+                              class="center" >
+                          </picture>
+                </div>
+                <div>
+                    <div>
+                        <h3>本の検索フロー</h3>
+                        <p class="width-850">本を探すことは簡単で直感的であるべきです。本は探索ページを通じて検索でき、
+                          簡単に本の詳細にアクセスできます。</p>
+                    </div>
+                    <div>
+                        <picture>
+                            <source
+                              srcset="img/lingoshelf/small/lingoshelf_search-flow_jp@x1.png"
+                              media="(max-width:767px)" >
+                            <img
+                              src="img/lingoshelf/large/lingoshelf_search-flow_jp@x2.png"
+                              alt="Mid Fidelity Wireframes and User Flow from the Book Search Flow" 
+                              class="center">
+                          </picture> 
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h3>単語保存フロー</h3>
+                        <p>読書中に単語を調べるのは簡単で直感的であるべきです。小さなポップアップ画面が翻訳を表示し、
+                          ユーザーはフラッシュカードに単語を保存できます。</p>
+                    </div>
+                    <div>
+                      <picture>
+                          <source
+                            srcset="img/lingoshelf/small/lingoshelf_reading-flow_jp@x1.png"
+                            media="(max-width:767px)" >
+                          <img
+                            src="img/lingoshelf/large/lingoshelf_reading-flow_jp@x2.png"
+                            alt="Mid Fidelity Wireframes and User Flow from the Reading Flow"
+                            class="center" >
+                        </picture> 
+                  </div>
+                </div>
+                    <div>
+                        <div>
+                            <h3>フラッシュカードフロー</h3>
+                            <p>ユーザーは、自分の語彙リストから簡単にフラッシュカードにアクセスできるべきです。</p>
+                        </div>
+                        <div>
+                            <picture>
+                                <source
+                                  srcset="img/lingoshelf/small/lingoshelf_flashcard-flow_jp@x1.png"
+                                  media="(max-width:767px)" >
+                                <img
+                                  src="img/lingoshelf/large/lingoshelf_flashcard-flow_jp@x2.png"
+                                  alt="Mid Fidelity Wireframes and User Flow from the Flashcard Flow" 
+                                  class="center">
+                              </picture> 
+                        </div>
+                    </div>
+            </div>
+            <div>
+                <picture>
+                    <source
+                      srcset="../img/lingoshelf/small/lingoshelf_mass-mockup@x1.png"
+                      media="(max-width:767px)" >
+                    <img
+                      src="../img/lingoshelf/large/lingoshelf_mass-mockup@x2.png"
+                      alt="A variety of mockup screens of the Lingoshelf App" class="lingoshelf_mass-mockup">
+                  </picture> 
+            </div>
+            </div>
+
+            <!-- Visual Design Section -->
+            <div class="row">
+                <div>
+                    <h2>計画からビジュアルデザインへ</h2>
+                </div>
+                <div>
+                    <div>
+                        <h3>ワイヤーフレームの洗練 - 低忠実度から高忠実度へ</h3>
+                        <p>ユーザーフローに基づいて最初に作成したワイヤーフレームは最小限で、
+                          重要なフローと機能にのみ焦点を当てていました。さらなるブレーンストーミングを通じて、
+                          画面レイアウトを洗練し、アプリのビジュアルスタイルを創造しました。
+                          このアプリは、言語学習者がスキル向上に集中できる没入型の環境を作り出すことを目指しているため、
+                          ビジュアルデザインは意図的に最小限で目立たないものとなっており、
+                          ユーザーが読み物に集中できるように配慮されています。</p>
+                    </div>
+                    <div>
+                            <h3>使い勝手の問題を明らかにする</h3>
+                            <p>高忠実度のワイヤーフレームを用いて、ユーザーとのテストのためのプロトタイプを作成し、
+                              さらなる改善のためのフィードバックを収集しました。ユーザーテストにより、
+                              ユーザーがフラッシュカードの使い方を正しく理解するのに困難を抱えていることが明らかになりました。
+                              彼らは、入力方法、フィードバックの受け取り方、またはカラーボタンを使用して自分の答えを評価する方法が不明瞭でした。
+                              これは重要な使い勝手の問題を示しており、悪いユーザー体験につながる可能性があるため、
+                              ユーザーに何が起こっているのかをよりよく理解させるためのアイデアについて考え直しました。</p>
+                                <picture>
+                                    <source
+                                      srcset="img/lingoshelf/small/lingoshelf_problem1_jp@x1.png"
+                                      media="(max-width:767px)" >
+                                    <img
+                                      src="img/lingoshelf/large/lingoshelf_problem1_jp@x2.png"
+                                      alt="Screens of Usability Problems and Solution" 
+                                      class="center solution1">
+                                </picture> 
+                                <picture>
+                                    <source
+                                      srcset="img/lingoshelf/small/lingoshelf_problem2_jp@x1.png"
+                                      media="(max-width:767px)" >
+                                    <img
+                                      src="img/lingoshelf/large/lingoshelf_problem2_jp@x2.png"
+                                      alt="Screens of Usability Problems and Solution" 
+                                      class="center">
+                                </picture> 
+                    </div>
+                </div>
+            </div>
+
+            <!-- Final Mockups Section -->
+            <div class="row">
+                <div>
+                    <h2>没入型学習体験の創造</h2>
+                </div>
+                <div>
+                    <div>
+                        <h3>お気に入りの本を読むことで言語を学ぶ</h3>
+                        <p>Lingoshelfは、様々な言語の文学作品を豊富に取り揃えています。
+                          ユーザーは自分の言語スキルや興味に合った本を探して、楽しい学習体験を得ることができます。</p>
+                            <picture>
+                                <source
+                                  srcset="img/lingoshelf/small/lingoshelf_screens-search_jp@x1.png"
+                                  media="(max-width:767px)" >
+                                <img
+                                  src="img/lingoshelf/large/lingoshelf_screens-search_jp@x2.png"
+                                  alt="Screen Mockups of the final Search Flow" >
+                            </picture> 
+                    </div>
+                    <div>
+                        <h3>読書中に単語の意味を調べ、新しい語彙を保存する</h3>
+                        <p>ユーザーは外部の辞書を使わずに、読書中に直接単語の意味を調べることができます。
+                          また、後で参照するために単語を保存したり、異なるフラッシュカードセットに追加したりすることもできます。</p>
+                            <picture>
+                                <source
+                                  srcset="img/lingoshelf/small/lingoshelf_screens-reading_jp@x1.png"
+                                  media="(max-width:767px)" >
+                                <img
+                                  src="img/lingoshelf/large/lingoshelf_screens-reading_jp@x2.png"
+                                  alt="Screen Mockups of the final Reading Flow" >
+                            </picture> 
+                    </div>
+                    <div>
+                        <h3>SRSベースのフラッシュカードで新しい単語を練習する</h3>
+                        <p>Lingoshelfは、より受動的で没入型の読書アプローチに加えて、
+                          保存した単語を能動的に練習するための効果的な方法として間隔反復を利用しています。
+                          フラッシュカードは、ユーザーが読書中に遭遇した文の中の単語を表示し、
+                          文脈を提供して記憶を強化します。</p>
+                            <picture>
+                                <source
+                                  srcset="img/lingoshelf/small/lingoshelf_screens-flashcards_jp@x1.png"
+                                  media="(max-width:767px)" >
+                                <img
+                                  src="img/lingoshelf/large/lingoshelf_screens-flashcards_jp@x2.png"
+                                  alt="Screen Mockups of the final Flashcard Flow" >
+                            </picture> 
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Summary Section -->
+            <div class="row">
+                <div>
+                    <h2>学んだこと</h2>
+                </div>
+                <div>
+                    <h3>自分自身の偏見を意識する</h3>
+                    <p>自分が製品のタ対象者の一部であることは、
+                      ユーザーの視点により共感しやすくするという利点があります。
+                      しかし、自身の好みに基づく偏見により影響を受けやすくなるという欠点もあります。
+                      そのため、これらの偏見を意識し続け、ユーザーリサーチやテストが異なるニーズや好みを明らかにした場合、
+                      個人の好みを脇に置く意欲が重要です。</p>
+                    
+                    <h3>一見対象者でないと思われるユーザーも考慮する</h3>
+                    <p>言語学習の経験が少ない人々を排除したり孤立して設計したりすることを避けるためには、
+                      研究とデザインの両段階で多様な背景を持つ人々を巻き込むことが不可欠です。
+                      このアプローチは貴重な洞察をもたらし、特定のグループだけに排他的に設計する落とし穴を防ぎます。</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+      <div class="container">
+
+        <!-- Contact -->
+        <h2 class="home-h2-margin jp contact-headline">Contact</h2>
+        <p class="jp">
+          お問い合わせやご感想等は、ぜひ気軽にご連絡ください。
+        </p>
+        <div class="btn-center"><a href="mailto:nadine_fiedler@gmx.net" class="button contact jp">お問い合わせ</a></div>
+
+        <!-- Social Media accounts-->
+        <div class="container socials">
+
+          <!-- <div class="sns-icons"> -->
+          <!-- Linkedin -->
+          <a href="https://www.linkedin.com/in/nadine-fiedler-30a0262a3/" target="_blank" class="icon"
+            >
+              <img src="../img/icon/icon-linkedin.svg" alt="Linkedin" class="no-margin-top">
+           </a>
+
+          <!-- Instargram -->
+          <a href="https://www.instagram.com/nadiko_93/" target="_blank" class="icon"
+            >
+              <img src="../img/icon/icon-insta.svg" alt="Instagram" class="no-margin-top">
+            </a>
+
+          <!-- Behance -->
+         <a href="https://www.behance.net/nadinefiedler" target="_blank" class="icon"
+            >
+              <img src="../img/icon/icon-behance.svg" alt="Behance" class="no-margin-top">
+          </a>
+
+          <!-- Github -->
+          <a href="https://github.com/nadiko93" target="_blank" class="icon">
+            <img src="../img/icon/icon-github.svg" alt="Github" class="no-margin-top">
+          </a>
+           
+            <!-- </div> -->
+        </div>
+        <p class="copyright jp">&copy; Copyright Nadine Fiedler 2023</p>
+      </div>
+    </footer>
+
+     <!-- Javascript Link -->
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <script src="../js/scripts.js"></script>
+  </body>
+</html>
