@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/938ab8defb.js" crossorigin="anonymous"></script>
+    <title>Lingoshelf Case Study</title>
+  </head>
+  <body>
+    <!-- Header Section-->
+    <header>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html" class="logo">Nadine Fiedler</a>
+        <nav>
+          <ul>
+            <li>
+              <a href="javascript:void(0);" class="hamburger-menu" onclick="menuToggle()"
+                ><i class="fas fa-bars"></i
+              ></a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" class="hamburger-menu" onclick="menuToggle()"
+                ><i class="fa-solid fa-xmark"></i></i
+              ></a>
+            </li>
+            <li class="nav-item"><a href="index.html">Work</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+            <li class="language-option-small"><a href="../mealcompass.html" class="language-option"><img src="../img/icon/flag-britian.svg" alt="an illustration of a british flag" class="english"></a></li>
+            <li class="language-option-small"><a href="mealcompass.html" class="language-option"><img src="../img/icon/flag-japan.svg" alt="an illustration of a japanese flag" class="japanese"></a></li>
+          </ul>
+          <a href="../mealcompass.html" class="language-option"><img src="../img/icon/flag-britian.svg" alt="an illustration of a british flag" class="english language-option-large"></a>
+          <a href="mealcompass.html" class="language-option"><img src="../img/icon/flag-japan.svg" alt="an illustration of a japanese flag" class="japanese language-option-large"></a>
+        </nav>
+      </div>
+    </header>
+
+
+    <!-- Main Section -->
+    <main class="project">
+        <div class="container">
+            <!-- Top Section -->
+            <div class="row top">
+        <picture>
+            <source
+              srcset="../img/mealcompass/small/mealcompass_logo@x1.png"
+              media="(max-width:767px)" >
+            <img
+              src="../img/mealcompass/large/mealcompass_logo@x2.png"
+              alt="Meal Compass Logo" 
+              class="center">
+          </picture>
+          <h2 class="jp-mealcompass-catch-phrase">次の食事を計画し、料理をストレスフリーで楽しい体験にする</h2>
+          <picture>
+            <source
+              srcset="../img/mealcompass/small/mealcompass_responsive-mockup@x1.png"
+              media="(max-width:767px)" >
+            <img
+              src="../img/mealcompass/large/mealcompass_responsive-mockup@x2.png"
+              alt="Screens from the Meal Compass App"
+              class="no-margin-top">
+          </picture>
+            </div>
+
+            <!-- Project Overview Section -->
+            <div class="row no-margin-top">
+                <div>
+                    <h2 class="no-margin-top">プロジェクト概要</h2>
+                </div>
+                <div class="flex">
+                    <div class="role">
+                        <h5>役割</h5>
+                        <p>UIデザイン, UXデザイン</p>
+                    </div>
+                    <div>
+                        <h5>プロジェクトの範囲</h5>
+                        <p>ユーザーインタビュー, ペルソナ, ユーザーストーリー, 最小限の実用製品 (MVP), ユーザーフロー, ワイヤーフレーム, スタイルガイド, ユーザビリティテスト</p>
+                    </div>
+                    <div> 
+                        <h5>ツール</h5>
+                        <p>Adobe XD, Adobe Photoshop, Adobe Illustrator</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="width-500">
+                        <h3>課題</h3>
+                        <p>忙しいスケジュールを管理しながら健康的な食事を維持することは、ストレスが多くて困難です。特にやるべきことがたくさんある時に、さまざまなレシピをスクロールして何を料理するかを決めるのはかなり大変で圧倒されることがあります。忙しい日常生活の中で、栄養バランスの取れた食事はしばしば最初におろそかにされることがあります。</p>
+                    </div>
+                    <div class="width-500">
+                        <h3>解決策</h3>
+                        <p>摩擦を最小限に抑えて貴重な時間を節約するために、ユーザーは多くのレシピを過度に閲覧することなく迅速に食事計画を決定する方法が必要です。そのため、アプリがユーザーの好みに合わせたレシピ提案を行うことが有利です。さらに、食事プランナーから直接買い物リストに材料を転送するオプションが、潜在的なストレッサーを軽減し、料理を楽しくて報われる体験に変えることができます。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Planning the Structure of the Web App -->
+            <div class="row">
+                <div>
+                    <h2>ウェブアプリの構造計画</h2>
+                </div>
+                <div>
+                <div>
+                    <h3>ユーザーは誰ですか？</h3>
+                    <p>アプリのデザインに直接取り掛かる前に、まずデザインするユーザーが誰であるかを理解することを目指しました。ユーザーの目標は何ですか？彼らはどのような困難や不満を経験していましたか？ユーザーはいつ製品を利用するでしょうか？対象者をより明確に理解するために、まず目的を定義することから始めました。</p>
+                </div>
+                <div class="flex">
+                    <div class="width-500">
+                        <div>
+                            <h4>誰？</h4>
+                            <p>忙しいスケジュールを持つ人々で、時間を節約したいが、栄養豊富で健康的な食事にも気を配っている人。</p>
+                        </div>
+                        <div>
+                            <h4>何？</h4>
+                         <p>事前に食事と食料品の買い物を計画し、栄養に注意を払い、個人のニーズに合わせてフィルターオプションを調整し、レシピに従って食事を調理すること。</p>
+                        </div>
+                        <div>
+                          <h4>どこ？</h4>
+                       <p>主に家やキッチンで使用します。デスクトップだけでなく、モバイルデバイスでも使用します。</p>
+                      </div>
+                    </div>
+                    <div class="width-500">
+                    <div>
+                        <h4>いつ？</h4>
+                      <p>食事の計画を立てているときや料理をしているとき。</p>
+                    </div>
+                    <div>
+                      <h4>なぜ？</h4>
+                    <p class="width-440">食事計画と食料品の買い物リスト作成の時間を節約するために。</p>
+                  </div>
+                  <div>
+                    <h4>どうやって？</h4>
+                  <p>ユーザーは、個人のニーズに応じてフィルタリングしてレシピを検索します。レシピを「カレンダー」に入れて事前に食事計画を決定し、これらのレシピに基づいて購入する必要がある材料について決定します。</p>
+                </div>
+                  </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                <h3>ユーザーリサーチ</h3>
+                <p>前に定義した目的は、対象者をより明確にわかり、ユーザーインタビューに適した参加者を特定するのに役立ち、プロジェクトにとってより意味のある洞察を収集することを可能にしました。インタビューは、ユーザーの不満や目標を明らかにし、プロジェクトのアイデアと方向性をさらに形作るのに役立ちました。</p>
+                </div>
+                <div class="flex">
+                      <div>
+                          <h4>痛点</h4>
+                          <ul>
+                            <li>新しくて革新的なレシピを見つけるのが困難</li>
+                            <li>家族全員の食事ニーズや好みに合うものを満たすことが困難</li>
+                          </ul>
+                      </div>
+                      <div>
+                          <h4>目標</h4>
+                      <ul>
+                        <li>よりバランスの取れた食事</li>
+                        <li>家族全員の食事ニーズを満たす</li>
+                        <li>忙しいライフスタイルと食事のより良い両立</li>
+                        <li>1週間前に食事を計画する</li>
+                      </ul>
+                      </div>
+              </div>
+                <div>
+                    <h3>ユーザーペルソナ</h3>
+                    <p>ユーザーインタビュー中に得た洞察をもとに、私は3つの異なるユーザーペルソナを作成しました。これらのペルソナは、対象者についてより明確な理解を得るのに役立ちました。作成したペルソナを常に念頭に置くことで、私は意識的なデザイン決定を行い、ユーザーのニーズに共鳴する製品を開発することができました。</p>
+                        <picture>
+                            <source
+                              srcset="img/mealcompass/small/mealcompass_persona_jp@x1.png"
+                              media="(max-width:767px)" >
+                            <img
+                              src="img/mealcompass/large/mealcompass_persona_jp@x2.png"
+                              alt="3 Three different User Personas"
+                              class="center width-hundred" >
+                          </picture>
+                </div>
+                <div class="width-850">
+                        <h3>最小限の実用製品 (MVP)</h3>
+                        <p>ペルソナを作成した後、ユーザーが誰であるかは理解しましたが、どの機能が効果的にユーザーの問題を解決し、彼らのニーズや目標と一致するのでしょうか？手元にペルソナを持って、私はユーザーストーリーを形成し始めました。これにより、対象者のニーズとレシピWebアプリに求めるものをより深く理解しようとしました。</p>
+                        <p>機能や機能の範囲を繰り返し生成した後、私はそれぞれを「持っていても良い機能」と「重要な機能」として分類し始めました。その後、これらの情報をすべてMVPドキュメントにまとめ、製品デザインの初期の方向性を示しました。</p>
+                </div>
+                <div class="flex">
+                    <div class="mealcompass-mvp">
+                        <h4>MVPの目的:</h4>
+                        <ul>
+                          <li>
+                            忙しいスケジュールでも健康的な食事を実現するための摩擦を減らすために、栄養情報の概要を提供する。
+                          </li>
+                          <li>
+                            忙しい人々が労力をかけずに、自分のニーズや好みに合わせて食事を計画する方法を提供する。
+                          </li>
+                        </ul>
+                    </div>
+                    <div class="mealcompass-mvp">
+                      <h4>仮説</h4>
+                      <p>健康的で栄養価の高い食事と忙しいスケジュールの管理は常に簡単ではありません。健康的な食事を準備する際に、レシピの決定、食料品の買い物の計画、事前の計画などの摩擦が多すぎると、人々は不健康だが迅速な選択肢を選びがちです。したがって、このWebアプリは忙しい人々の食事計画と健康的な食生活に対応することを目指しています。</p>
+                  </div>
+                  <div class="mealcompass-mvp">
+                    <h4>成功指標</h4>
+                    <ul>
+                      <li>ユーザープロファイルの数</li>
+                      <li>新たに作成されたユーザープロファイルの数</li>
+                      <li>作成された食事プランの数</li>
+                      <li>SEOランキン</li>
+                      <li>ユーザーからのレビュー</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+          
+            <!-- Section Visual Design  -->
+
+            <div class="row">
+              <h2>研究結果をビジュアルデザインに変える</h2>
+              <div>
+                <h3>ユーザーフロー</h3>
+                <p>MVPに続いて、ユーザーストーリーに基づいてユーザーフローの概要を描き始めました。このユーザーフローは、ユーザーが異なる画面をナビゲートするためにたどるパスを示し、アプリ内での進行に影響を与える決定点を強調し、彼らが遭遇する特定の画面を描写しました。</p>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_user-flow_jp@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_user-flow_jp@x2.png"
+                    alt="User Flow for the Meal Compass recipe web app">
+                </picture>
+              </div>
+              <div>
+                <h3>低忠実度ワイヤーフレーム</h3>
+                <p>ユーザーフローは、設計する必要がある画面と機能を明確に理解するのに役立ちました。そこで、アプリの実際の画面とナビゲーションがどのように構築されるかについての考え始めました。複数回の反復作業を経て、'クレイジー8'のシリーズを含む後、最終的に低忠実度ワイヤーフレームを作成しました。これは画面レイアウトの基本的な基盤となりました。
+
+                </p>
+                <picture>
+                  <source
+                    srcset="../img/mealcompass/small/mealcompass_low-fi1@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="../img/mealcompass/large/mealcompass_low-fi1@x2.png"
+                    alt="Low Fidelity Wireframes for the Meal Compass web app"
+                    class="center no-margin-top" >
+                </picture>
+                <picture>
+                  <source
+                    srcset="../img/mealcompass/small/mealcompass_low-fi2@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="../img/mealcompass/large/mealcompass_low-fi2@x2.png"
+                    alt="Low Fidelity Wireframes for the Meal Compass web app"
+                    class="center no-margin-top" >
+                </picture>
+              </div>
+              <div class="flex">
+                <picture>
+                  <source
+                    srcset="../img/mealcompass/small/mealcompass_mockup2@x1.jpg"
+                    media="(max-width:767px)"
+                   >
+                  <img
+                    src="../img/mealcompass/large/mealcompass_mockup2@x2.jpg"
+                    alt="Image of the Shopping List Screen of the Meal Compass App"
+                    class="rounded-corners" 
+                    >
+                </picture>
+                <picture>
+                  <source
+                    srcset="../img/mealcompass/small/mealcompass_mockup3@x1.jpg"
+                    media="(max-width:767px)" >
+                  <img
+                    src="../img/mealcompass/large/mealcompass_mockup3@x2.jpg"
+                    alt="Image of the Receipt Suggestions Screen of the Meal Compass App"
+                    class="rounded-corners"
+                   >
+                </picture>
+              </div>
+              <div>
+                <h3>ユーザビリティテスト</h3>
+                <p class="width-850">アプリのナビゲーションと全体的なデザインのユーザビリティを評価するために、低忠実度ワイヤーフレームに基づいたシンプルなプロトタイプを作りました。私は3人の参加者を募り、ナビゲーションに影響を与える可能性のある重大な問題点や困難を特定することを目的として、5つのタスクを完了してもらいました。テスターがアプリのナビゲーションやタスクの完了に大きな問題を経験することはありませんでしたが、全体的なユーザー体験を向上させる目的で、中忠実度ワイヤーフレームの作成において対処する予定のいくつかの点を特定しました。</p>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_problem1_jp@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_problem1_jp@x2.png"
+                    alt="Image describing the usability problem and the solution"
+    
+                   >
+                </picture>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_problem2_jp@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_problem2_jp@x2.png"
+                    alt="Image describing the usability problem and the solution"
+                 
+                   >
+                </picture>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_problem3_jp@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_problem3_jp@x2.png"
+                    alt="Image describing the usability problem and the solution"
+                  
+                   >
+                </picture>
+
+              </div>
+              <picture>
+                <source
+                  srcset="../img/mealcompass/small/mealcompass_mass-mockup@x1.jpg"
+                  media="(max-width:767px)" >
+                <img
+                  src="../img/mealcompass/large/mealcompass_mass-mockup@x2.jpg"
+                  alt="A variety of phone screens of the Meal Compass recipe web app"
+                 >
+              </picture>
+
+              <div>
+                <h3>スタイルガイド</h3>
+                <p>ワイヤーフレームはレシピアプリの基本的な構造を提供しましたが、グレースケールのアプリだけで誰かが使いたくなることは考えにくいです。そのため、アプリの外観とスタイルを洗練させることに焦点を移しました。アプリのポジティブで明るい雰囲気に調和する色とタイポグラフィを選び、ユーザーがアプリを起動するたびに歓迎されていると感じるようにしました。さらに、視覚的魅力を高めるためにアイコンとロゴを作成しました。</p>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_style-guide_jp@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_style-guide_jp@x2.png"
+                    alt="A variety of phone screens of the Meal Compass recipe web app"
+                   >
+                </picture>
+              </div>
+              <div>
+                <h3>画面と機能</h3>
+                <p>スタイルガイドでビジュアルスタイルを定義した後、それらをワイヤーフレームに取り入れました。しかし、ビジュアルスタイルは成功した製品を作るための一面に過ぎないので、私が以前に定義した機能をどのように実装し、UXとUIデザインをどのように調和させたかも検討しましょう。</p>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_account_jp@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_account_jp@x2.png"
+                    alt="The account creation process of the Meal Compass web app"
+                    class="center"
+                   >
+                </picture>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_recipe_jp@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_recipe_jp@x2.png"
+                    alt="The recipe search process of the Meal Compass web app"
+                    class="center width-hundred
+                   >
+                </picture>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_meal-planner_jp@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_meal-planner_jp@x2.png"
+                    alt="The meal plan and shopping list creation process of the Meal Compass web app"
+                    class="center width-hundred"
+                   >
+                </picture>
+              </div>
+
+
+
+
+            </div>
+
+            
+            <!-- Summary Section -->
+            <div class="row">
+                <div>
+                    <h2>学んだこと</h2>
+                </div>
+                <div>
+                    <h3>最初からすべてのアイデアや可能な機能を実装しない</h3>
+                    <p>ブレインストーミング中に多くのアイデアや解決策を持つことは素晴らしいことですが、最初からそれらすべてを実装することは貴重なリソースと時間を消費します。完成品を目指すのではなく、まずは製品の機能的なバージョン（MVP）を作成し、初期のローンチ後に追加機能に取り組むことがより有益です。このアプローチは、早期の利益を生み出し、それをさらなる開発に再投資するのに役立つだけでなく、ユーザーからの貴重なフィードバックや洞察を後続の開発のために収集することもできます。</p>
+
+                    <h3>一人でデザインしない</h3>
+                    <p>デザインプロセスにユーザーを巻き込むことが重要である一方で、同僚、デザイナー仲間、開発者、業界の専門家など、他のステークホルダーとの協力も同様に重要です。これらの個々の人々は、私の作業を強化するための貴重な洞察と提案を提供することができます。別のデザイナーは新鮮な視点とデザイン改善のための貴重なアドバイスを提供するかもしれませんし、開発者は私のアイデアの技術的な実現可能性を評価することができます。批評を受け入れることは、よく設計された最終製品を達成するために不可欠であり、決して見過ごされるべきではありません。</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+      <div class="container">
+
+        <!-- Contact -->
+        <h2 class="home-h2-margin contact-headline">Contact</h2>
+        <p>
+          お問い合わせやご感想等は、ぜひ気軽にご連絡ください。
+        </p>
+        <div class="btn-center"><a href="mailto:nadine_fiedler@gmx.net" class="button contact">Send Email</a></div>
+
+        <!-- Social Media accounts-->
+        <div class="container socials">
+
+          <!-- <div class="sns-icons"> -->
+          <!-- Linkedin -->
+          <a href="https://www.linkedin.com/in/nadine-fiedler-30a0262a3/" target="_blank" class="icon"
+            >
+              <img src="../img/icon/icon-linkedin.svg" alt="Linkedin" class="no-margin-top">
+           </a>
+
+          <!-- Instargram -->
+          <a href="https://www.instagram.com/nadiko_93/" target="_blank" class="icon"
+            >
+              <img src="../img/icon/icon-insta.svg" alt="Instagram" class="no-margin-top">
+            </a>
+
+          <!-- Behance -->
+         <a href="https://www.behance.net/nadinefiedler" target="_blank" class="icon"
+            >
+              <img src="../img/icon/icon-behance.svg" alt="Behance" class="no-margin-top">
+          </a>
+
+          <!-- Github -->
+          <a href="https://github.com/nadiko93" target="_blank" class="icon">
+            <img src="../img/icon/icon-github.svg" alt="Github" class="no-margin-top">
+          </a>
+           
+            <!-- </div> -->
+        </div>
+        <p class="copyright">&copy; Copyright Nadine Fiedler 2023</p>
+      </div>
+    </footer>
+
+     <!-- Javascript Link -->
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <script src="../js/scripts.js"></script>
+  </body>
+</html>
