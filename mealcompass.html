@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/938ab8defb.js" crossorigin="anonymous"></script>
+    <title>Lingoshelf Case Study</title>
+  </head>
+  <body>
+    <!-- Header Section-->
+    <header>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html" class="logo">Nadine Fiedler</a>
+        <nav>
+          <ul>
+            <li>
+              <a href="javascript:void(0);" class="hamburger-menu" onclick="menuToggle()"
+                ><i class="fas fa-bars"></i
+              ></a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" class="hamburger-menu" onclick="menuToggle()"
+                ><i class="fa-solid fa-xmark"></i></i
+              ></a>
+            </li>
+            <li class="nav-item"><a href="index.html">Work</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+            <li class="language-option-small"><a href="mealcompass.html" class="language-option"><img src="img/icon/flag-britian.svg" alt="an illustration of a british flag" class="english"></a></li>
+            <li class="language-option-small"><a href="japanese/mealcompass.html" class="language-option"><img src="img/icon/flag-japan.svg" alt="an illustration of a japanese flag" class="japanese"></a></li>
+          </ul>
+          <a href="mealcompass.html" class="language-option"><img src="img/icon/flag-britian.svg" alt="an illustration of a british flag" class="english language-option-large"></a>
+          <a href="japanese/mealcompass.html" class="language-option"><img src="img/icon/flag-japan.svg" alt="an illustration of a japanese flag" class="japanese language-option-large"></a>
+        </nav>
+      </div>
+    </header>
+
+
+    <!-- Main Section -->
+    <main class="project">
+        <div class="container">
+            <!-- Top Section -->
+            <div class="row top">
+        <picture>
+            <source
+              srcset="img/mealcompass/small/mealcompass_logo@x1.png"
+              media="(max-width:767px)" >
+            <img
+              src="img/mealcompass/large/mealcompass_logo@x2.png"
+              alt="Meal Compass Logo" 
+              class="center">
+          </picture>
+          <h2 class="no-margin-top">Plan your meals for the week ahead and make cooking a stress-free and fun experience.</h2>
+          <picture>
+            <source
+              srcset="img/mealcompass/small/mealcompass_responsive-mockup@x1.png"
+              media="(max-width:767px)" >
+            <img
+              src="img/mealcompass/large/mealcompass_responsive-mockup@x2.png"
+              alt="Screens from the Meal Compass App"
+              class="no-margin-top">
+          </picture>
+            </div>
+
+            <!-- Project Overview Section -->
+            <div class="row no-margin-top">
+                <div>
+                    <h2 class="no-margin-top">Project Overview</h2>
+                </div>
+                <div class="flex">
+                    <div class="role">
+                        <h5>Role</h5>
+                        <p>UI Design, UX Design</p>
+                    </div>
+                    <div>
+                        <h5>Project Scope</h5>
+                        <p>User Interviews, Persona, User Stories, MVP, User Flow, Wireframes, Style Guide, Usability Testing</p>
+                    </div>
+                    <div> 
+                        <h5>Tools</h5>
+                        <p>Adobe XD, Adobe Photoshop, Adobe Illustrator</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div>
+                        <h3>The Problem</h3>
+                        <p>Managing a busy schedule and maintaining a healthy diet can be stressful and challenging. It can be quite daunting and overwhelming to scroll through a variety of recipes and decide what to cook, especially when there are numerous other tasks on our to-do list. All too often, a nutritious diet is one of the first things we neglect in our busy everyday lives.</p>
+                    </div>
+                    <div>
+                        <h3>The Solution</h3>
+                        <p>To minimize friction and save valuable time, users require a method to swiftly decide on their meal plan without spending excessive time browsing through numerous recipes. Consequently, it would be advantageous if the app could offer recipe suggestions aligned with the user's preferences. Furthermore, the option to directly transfer ingredients from the meal planner to a shopping list can alleviate potential stressors and transform cooking into a enjoyable and rewarding experience.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Planning the Structure of the Web App -->
+            <div class="row">
+                <div>
+                    <h2>Planning the Structure of the Web App</h2>
+                </div>
+                <div>
+                <div>
+                    <h3>Who is the User?</h3>
+                    <p>Before diving directly into the app design, I aimed to understand WHO the user was I am designing for in the first place. What are the users' goals? Do they experience any pain points or frustrations that I could address? When would users utilize the product? To gain a clearer perspective of the target audience, I first began to define objectives.</p>
+                </div>
+                <div class="flex">
+                    <div>
+                        <div>
+                            <h4>Who?</h4>
+                            <p>People with a busy schedule that want to save time but are also aware of a nutritious and healthy diet.</p>
+                        </div>
+                        <div>
+                            <h4>What?</h4>
+                         <p>Plan meals and grocery shopping ahead, keep an eye on their nutrition, adjust filter options to their personal needs and follow recipes to cook meals.</p>
+                        </div>
+                        <div>
+                          <h4>Where?</h4>
+                       <p>Mostly at home / in the kitchen. They might use it on their desktop as well as on their mobile device.</p>
+                      </div>
+                    </div>
+                    <div>
+                    <div>
+                        <h4>When?</h4>
+                      <p>When planning meals and while cooking.</p>
+                    </div>
+                    <div>
+                      <h4>Why?</h4>
+                    <p>To save time on their meal planning and grocery shopping list creation.</p>
+                  </div>
+                  <div>
+                    <h4>How?</h4>
+                  <p>Users will search for recipes by filtering them according to their personal needs. They will decide a meal plan beforehand by putting recipes in a “calendar” and decide about ingredients that have to be bought based on these recipes.</p>
+                </div>
+                  </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                <h3>User Research</h3>
+                <p>The objectives helped me with better defining the target audience and identifying suitable participants for user interviews, enabling me to gather more meaningful insights for the project. The interviews helped to unveil the frustrations and goals of my users, further shaping the idea and direction of the project.</p>
+                </div>
+                <div class="flex">
+                      <div>
+                          <h4>Frustrations</h4>
+                          <ul>
+                            <li>Difficulty to find new and innovative recipes</li>
+                            <li>Difficulty to meet dietary needs or taste of all family members</li>
+                          </ul>
+                      </div>
+                      <div>
+                          <h4>Goals</h4>
+                      <ul>
+                        <li>Better balanced meals</li>
+                        <li>Meeting dietary needs of all family members</li>
+                        <li>Better compatibility of busy lifestyle and diet</li>
+                        <li>Planning meals 1 week ahead</li>
+                      </ul>
+                      </div>
+              </div>
+                <div>
+                    <h3>User Personas</h3>
+                    <p>Drawing from the insights I acquired during user interviews, I crafted three distinct User Personas. These personas helped me to gain a more defined understanding of the target audience. Continuously keeping these personas in mind enabled me to make conscientious design decisions and develop a product that resonates with user needs, rather than relying solely on my broad assumptions of the user's preferences or personal biases.</p>
+                        <picture>
+                            <source
+                              srcset="img/mealcompass/small/mealcompass_persona@x1.png"
+                              media="(max-width:767px)" >
+                            <img
+                              src="img/mealcompass/large/mealcompass_persona@x2.png"
+                              alt="3 Three different User Personas"
+                              class="center width-hundred" >
+                          </picture>
+                </div>
+                <div class="width-850">
+                        <h3>The MVP</h3>
+                        <p>Upon creating the Personas, I understood who the user was, but which functionalities could effectively solve the user's problems and align with their needs and goals. With my Personas at hand, I began formulating User Stories to gain a deeper understanding of their needs and what they were looking for in a recipe web app.</p>
+                        <p>After iterating and generating an array of features and functionalities (while reminding myself that not every potential feature I could integrate into the app necessarily enhances the user experience), I started to categorize each as either a 'nice-to-have' or 'crucial' functionality. Afterwards I gathered all this information into an MVP document, which would indicate the initial direction of the product design.</p>
+                </div>
+                <div class="flex">
+                    <div class="mealcompass-mvp">
+                        <h4>MVP Objective:</h4>
+                        <ul>
+                          <li>
+                            To provide an overview about nutritional information to reduce frictions for a healthy diet despite a busy schedule.
+                          </li>
+                          <li>
+                            To provide an overview about nutritional information to reduce frictions for a healthy diet despite a busy schedule.
+                          </li>
+                        </ul>
+                    </div>
+                    <div class="mealcompass-mvp">
+                      <h4>Hypothesis</h4>
+                      <p>A healthy and nutritious diet and a busy schedule are not always easy to manage. When there is to much friction to cook healthy meals, such as deciding for a recipe, organize their grocery shopping or planning in advance, people are more likely to choose an unhealthy but fast option. Therefore, the web app aims to accommodate busy people with their meal planning and a healthy diet.</p>
+                  </div>
+                  <div class="mealcompass-mvp">
+                    <h4>Success Metrics</h4>
+                    <ul>
+                      <li>Number of user profiles</li>
+                      <li>Number of newly created user profiles</li>
+                      <li>Number of meal plans that have been created</li>
+                      <li>SEO Ranking</li>
+                      <li>Reviews from users</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+          
+            <!-- Section Visual Design  -->
+
+            <div class="row">
+              <h2>Translating Research Results into Visual Design</h2>
+              <div>
+                <h3>User Flow</h3>
+                <p>Following the MVP, I began outlining the user flow based on the User Stories. The User Flow illustrated the path users would follow to navigate through different screens, highlighting decision points that would impact their progression within the app and the specific screens they would encounter.</p>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_user-flow@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_user-flow@x2.png"
+                    alt="User Flow for the Meal Compass recipe web app">
+                </picture>
+              </div>
+              <div>
+                <h3>Low-Fidelity Wireframes</h3>
+                <p>The User Flow helped me with obtaining a clear understanding of the screens and functionalities that needed to be designed and so I started iterating on how the app's actual screens and navigation would be structured. After multiple iterations, including a series of 'crazy8's', I ultimately crafted my Low-Fidelity Wireframes, which served as the fundamental basis for the screen layout.</p>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_low-fi1@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_low-fi1@x2.png"
+                    alt="Low Fidelity Wireframes for the Meal Compass web app"
+                    class="center no-margin-top" >
+                </picture>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_low-fi2@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_low-fi2@x2.png"
+                    alt="Low Fidelity Wireframes for the Meal Compass web app"
+                    class="center no-margin-top" >
+                </picture>
+              </div>
+              <div class="flex">
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_mockup2@x1.jpg"
+                    media="(max-width:767px)"
+                   >
+                  <img
+                    src="img/mealcompass/large/mealcompass_mockup2@x2.jpg"
+                    alt="Image of the Shopping List Screen of the Meal Compass App"
+                    class="rounded-corners" 
+                    >
+                </picture>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_mockup3@x1.jpg"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_mockup3@x2.jpg"
+                    alt="Image of the Receipt Suggestions Screen of the Meal Compass App"
+                    class="rounded-corners"
+                   >
+                </picture>
+              </div>
+              <div>
+                <h3>Usability Testing</h3>
+                <p>To assess the usability of the app's navigation and overall design, I developed a simple prototype based on my Low-Fidelity Wireframes. I recruited three participants and assigned them five tasks to complete, aiming to identify any significant pain points or difficulties that could affect the navigation. Although the testers encountered no major issues while navigating the app and completing the tasks, I identified some points that I intended to address in my iteration for the Mid-Fidelity Wireframes, with the goal of enhancing the overall user experience.</p>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_problem1@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_problem1@x2.png"
+                    alt="Image describing the usability problem and the solution"
+    
+                   >
+                </picture>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_problem2@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_problem2@x2.png"
+                    alt="Image describing the usability problem and the solution"
+                 
+                   >
+                </picture>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_problem3@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_problem3@x2.png"
+                    alt="Image describing the usability problem and the solution"
+                  
+                   >
+                </picture>
+
+              </div>
+              <picture>
+                <source
+                  srcset="img/mealcompass/small/mealcompass_mass-mockup@x1.jpg"
+                  media="(max-width:767px)" >
+                <img
+                  src="img/mealcompass/large/mealcompass_mass-mockup@x2.jpg"
+                  alt="A variety of phone screens of the Meal Compass recipe web app"
+                 >
+              </picture>
+
+              <div>
+                <h3>The Style Guide</h3>
+                <p>While the Wireframes offered the foundational structure of the recipe app, it's unlikely anyone would engage with an app solely in grayscale. Thus, I shifted my focus towards refining the app's appearance and style. I selected colors and typography that harmonize with the app's positive and cheerful atmosphere, ensuring users feel welcomed each time they launch the app. Additionally, I crafted icons and a logo to further enhance the visual appeal.</p>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_style-guide@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_style-guide@x2.png"
+                    alt="A variety of phone screens of the Meal Compass recipe web app"
+                   >
+                </picture>
+              </div>
+              <div>
+                <h3>Screens & Functionalities</h3>
+                <p>Following the application of the styles I outlined in the Style Guide, I went on to incorporate them into my wireframes. However, since the visual style represents only one facet of crafting a successful product, let's also examine how I implemented the functionalities I previously defined and how I harmonized both the UX and the UI design.</p>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_account@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_account@x2.png"
+                    alt="The account creation process of the Meal Compass web app"
+                    class="center"
+                   >
+                </picture>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_recipe@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_recipe@x2.png"
+                    alt="The recipe search process of the Meal Compass web app"
+                    
+                   >
+                </picture>
+                <picture>
+                  <source
+                    srcset="img/mealcompass/small/mealcompass_meal-planner@x1.png"
+                    media="(max-width:767px)" >
+                  <img
+                    src="img/mealcompass/large/mealcompass_meal-planner@x2.png"
+                    alt="The meal plan and shopping list creation process of the Meal Compass web app"
+                    
+                   >
+                </picture>
+              </div>
+
+
+
+
+            </div>
+
+            
+            <!-- Summary Section -->
+            <div class="row">
+                <div>
+                    <h2>What I've learned</h2>
+                </div>
+                <div>
+                    <h3>Don't implement all ideas or possible features from the beginning</h3>
+                    <p>Having a bunch of ideas and solutions during brainstorming is great but implementing them all from the beginning consumes valuable resources and time. Instead of striving for a single finished product, it is more beneficial to create a functional version of the product first (MVP), and then iterate on additional features after the initial launch. This approach not only helps in generating early profits that can be reinvested in further development but also allows you to gather valuable feedback and insights from users for subsequent iterations.</p>
+
+                    <h3>Don't design alone</h3>
+                    <p>While involving users in the design process is essential, it's equally important to engage with other stakeholders, such as colleagues, fellow designers, developers, or industry experts. Each of these individuals can provide valuable insights and suggestions to enhance my work. Another designer might offer a fresh perspective and valuable tips for improving my design, while a developer can assess the technical feasibility of my ideas. Receiving, and more importantly, accepting critiques is crucial for achieving a well-designed end product and should never be overlooked.</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+      <div class="container">
+
+        <!-- Contact -->
+        <h2 class="home-h2-margin contact-headline">Get in Touch</h2>
+        <p>
+          Do you like my work and want to discuss opportunities? Please get in
+          touch.
+        </p>
+        <div class="btn-center"><a href="mailto:nadine_fiedler@gmx.net" class="button contact">Send Email</a></div>
+
+        <!-- Social Media accounts-->
+        <div class="container socials">
+
+          <!-- <div class="sns-icons"> -->
+          <!-- Linkedin -->
+          <a href="https://www.linkedin.com/in/nadine-fiedler-30a0262a3/" target="_blank" class="icon"
+            >
+              <img src="img/icon/icon-linkedin.svg" alt="Linkedin" class="no-margin-top">
+           </a>
+
+          <!-- Instargram -->
+          <a href="https://www.instagram.com/nadiko_93/" target="_blank" class="icon"
+            >
+              <img src="img/icon/icon-insta.svg" alt="Instagram" class="no-margin-top">
+            </a>
+
+          <!-- Behance -->
+         <a href="https://www.behance.net/nadinefiedler" target="_blank" class="icon"
+            >
+              <img src="img/icon/icon-behance.svg" alt="Behance" class="no-margin-top">
+          </a>
+
+          <!-- Github -->
+          <a href="https://github.com/nadiko93" target="_blank" class="icon">
+            <img src="img/icon/icon-github.svg" alt="Github" class="no-margin-top">
+          </a>
+           
+            <!-- </div> -->
+        </div>
+        <p class="copyright">&copy; Copyright Nadine Fiedler 2023</p>
+      </div>
+    </footer>
+
+     <!-- Javascript Link -->
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <script src="js/scripts.js"></script>
+  </body>
+</html>
